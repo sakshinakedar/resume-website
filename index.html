@@ -1,0 +1,28 @@
+import React from "react";
+
+export default function ResumeInfo() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100 p-4">
+      <div className="bg-white shadow-lg rounded-2xl p-6 max-w-md w-full text-center space-y-4">
+        <h1 className="text-3xl font-bold text-blue-700">Sakshi</h1>
+        <div className="space-y-2">
+          <h2 className="text-xl font-semibold text-gray-700">Hobbies</h2>
+          <p className="text-gray-600">Dancing, Cooking, Watching Mystery Series</p>
+        </div>
+        <div className="space-y-2">
+          <h2 className="text-xl font-semibold text-gray-700">Projects</h2>
+          <ul className="list-disc list-inside text-gray-600">
+            <li>Sudoku Solver in Java</li>
+            <li>Dining Philosophers in C</li>
+            <li>Gradient Descent on Iris Dataset</li>
+            <li>Service Booking Website (Ongoing)</li>
+          </ul>
+        </div>
+        <div className="space-y-2">
+          <h2 className="text-xl font-semibold text-gray-700">Skills</h2>
+          <p className="text-gray-600">Java, Python, React, Machine Learning, Problem-Solving</p>
+        </div>
+      </div>
+    </div>
+  );
+}
